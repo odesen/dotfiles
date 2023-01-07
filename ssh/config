@@ -1,0 +1,15 @@
+# Global settings
+Compression yes
+ForwardAgent yes
+PreferredAuthentications publickey,password
+Protocol 2
+
+# Hosts
+
+# Default
+Host *
+    # User username
+    StringHostKeyChecking ask
+    ServerAliveCountMax 6
+    ServerAliveInterval 30
+    KeepAlive yes
