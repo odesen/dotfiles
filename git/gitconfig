@@ -5,6 +5,9 @@
     email   = "17547700+odesen@users.noreply.github.com"
     # signingkey = **Your GPG ID**
 
+[init]
+    defaultBranch = main
+
 [branch "main"]
     remote  = origin
     merge   = refs/heads/main
